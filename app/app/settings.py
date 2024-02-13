@@ -39,11 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'drf_spectacular'
+    'drf_spectacular',
+    'rest_framework.authtoken',
 ]
 
 PROJECT_APPS = [
     'core',
+    'user'
 ]
 
 INSTALLED_APPS.extend(PROJECT_APPS)
