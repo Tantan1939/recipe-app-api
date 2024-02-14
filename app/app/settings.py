@@ -45,7 +45,8 @@ INSTALLED_APPS = [
 
 PROJECT_APPS = [
     'core',
-    'user'
+    'user',
+    'recipe',
 ]
 
 INSTALLED_APPS.extend(PROJECT_APPS)
